@@ -1,0 +1,30 @@
+.main_contacto {
+    background-color: black;
+
+    h2 {
+        text-align: center;
+        color: white;
+        margin: 5px;
+        border-radius: 30px;
+        background: rgb(63,94,251);
+        font-weight: 900;
+        background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgb(126, 27, 169) 100%);
+    }
+    .contacto {
+        div {
+            label {
+                color: white;
+            }
+        }
+        button {
+            background-color: white;
+            color: black;
+        }
+        button:hover {
+            background-color: black;
+            color: white;
+            border: white 3px solid;
+            transition: 300ms;
+        }
+    }
+}

@@ -8,32 +8,6 @@ body {
   background-color: black;
 }
 
-.main_contacto {
-  background-color: black;
-}
-.main_contacto h2 {
-  text-align: center;
-  color: white;
-  margin: 5px;
-  border-radius: 30px;
-  background: rgb(63, 94, 251);
-  font-weight: 900;
-  background: radial-gradient(circle, rgb(63, 94, 251) 0%, rgb(126, 27, 169) 100%);
-}
-.main_contacto .contacto div label {
-  color: white;
-}
-.main_contacto .contacto button {
-  background-color: white;
-  color: black;
-}
-.main_contacto .contacto button:hover {
-  background-color: black;
-  color: white;
-  border: white 3px solid;
-  transition: 300ms;
-}
-
 .nav-bar {
   background: rgb(63, 94, 251);
   background: radial-gradient(circle, rgb(63, 94, 251) 0%, rgb(126, 27, 169) 100%);
@@ -239,4 +213,30 @@ body {
   background-color: #8E9AAF;
   color: white;
   border-radius: 5px;
+}
+
+.main_contacto {
+  background-color: black;
+}
+.main_contacto h2 {
+  text-align: center;
+  color: white;
+  margin: 5px;
+  border-radius: 30px;
+  background: rgb(63, 94, 251);
+  font-weight: 900;
+  background: radial-gradient(circle, rgb(63, 94, 251) 0%, rgb(126, 27, 169) 100%);
+}
+.main_contacto .contacto div label {
+  color: white;
+}
+.main_contacto .contacto button {
+  background-color: white;
+  color: black;
+}
+.main_contacto .contacto button:hover {
+  background-color: black;
+  color: white;
+  border: white 3px solid;
+  transition: 300ms;
 }/*# sourceMappingURL=main.css.map */
