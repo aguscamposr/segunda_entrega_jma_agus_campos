@@ -8,6 +8,17 @@ body {
   background-color: black;
 }
 
+.main_index h1 {
+  text-align: center;
+  color: white;
+  margin: 5px;
+  border-radius: 30px;
+  background: rgb(63, 94, 251);
+  font-weight: 900;
+  background: radial-gradient(circle, rgb(63, 94, 251) 0%, rgb(126, 27, 169) 100%);
+  margin-bottom: 30px;
+}
+
 .nav-bar {
   background: rgb(63, 94, 251);
   background: radial-gradient(circle, rgb(63, 94, 251) 0%, rgb(126, 27, 169) 100%);
@@ -68,15 +79,6 @@ body {
   color: white;
   margin-left: 10px;
 }
-.main_index h1 {
-  text-align: center;
-  color: white;
-  margin: 5px;
-  border-radius: 30px;
-  background: rgb(63, 94, 251);
-  font-weight: 900;
-  background: radial-gradient(circle, rgb(63, 94, 251) 0%, rgb(126, 27, 169) 100%);
-}
 .main_index .carousel.slide .carousel-inner {
   display: flex;
   align-items: center;
@@ -100,10 +102,10 @@ body {
 }
 .main_index .mision p {
   width: 60%;
-  color: white;
   text-align: justify;
   margin: 0 auto;
-  margin-bottom: 20px;
+  color: white;
+  margin-bottom: 18px;
 }
 
 .footer {

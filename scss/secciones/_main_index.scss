@@ -7,13 +7,7 @@
     }
 
     h1 {
-        text-align: center;
-        color: white;
-        margin: 5px;
-        border-radius: 30px;
-        background: rgb(63,94,251);
-        font-weight: 900;
-        background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgb(126, 27, 169) 100%);
+        @extend %estiloH1; 
     }
     .carousel.slide {
         .carousel-inner {
@@ -41,10 +35,9 @@
         }
         p {
             width: 60%;
-            color: white;
             text-align: justify;
             margin: 0 auto;
-            margin-bottom: 20px;
+            @include estiloParrafo (18px, white);
         }
     }
 }

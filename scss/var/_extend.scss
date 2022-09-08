@@ -1,0 +1,17 @@
+// EXTEND
+%estiloH1 {
+    text-align: center;
+    color: white;
+    margin: 5px;
+    border-radius: 30px;
+    background: rgb(63,94,251);
+    font-weight: 900;
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgb(126, 27, 169) 100%);
+    margin-bottom: 30px;
+}
+
+// MIXIN
+@mixin estiloParrafo ($marginBottom, $color) {
+    color: $color;
+    margin-bottom: $marginBottom;
+}
