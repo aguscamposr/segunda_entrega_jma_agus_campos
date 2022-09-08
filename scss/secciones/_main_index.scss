@@ -1,7 +1,7 @@
 .main_index {
     background-color: black;
 
-    h2 {
+    h1 {
         text-align: center;
         color: white;
         margin: 5px;
@@ -25,6 +25,15 @@
         margin-bottom: 20px;
     }
     .mision {
+        h3 {
+            text-align: center;
+        color: white;
+        margin: 5px;
+        border-radius: 30px;
+        background: rgb(63,94,251);
+        font-weight: 900;
+        background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgb(126, 27, 169) 100%);
+        }
         p {
             width: 60%;
             color: white;
