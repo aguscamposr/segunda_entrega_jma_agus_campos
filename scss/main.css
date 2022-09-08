@@ -63,6 +63,11 @@ body {
 .main_index {
   background-color: black;
 }
+.main_index a {
+  text-decoration: none;
+  color: white;
+  margin-left: 10px;
+}
 .main_index h1 {
   text-align: center;
   color: white;
@@ -126,6 +131,10 @@ body {
 .main_clientes {
   background-color: black;
 }
+.main_clientes a {
+  text-decoration: none;
+  color: white;
+}
 .main_clientes h1 {
   text-align: center;
   color: white;
@@ -171,6 +180,10 @@ body {
 .main_servicio {
   background-color: black;
 }
+.main_servicio a {
+  text-decoration: none;
+  color: white;
+}
 .main_servicio h1 {
   text-align: center;
   color: white;
@@ -190,6 +203,10 @@ body {
 
 .main_faq {
   background-color: black;
+}
+.main_faq a {
+  text-decoration: none;
+  color: white;
 }
 .main_faq h1 {
   text-align: center;
@@ -232,6 +249,10 @@ body {
 
 .main_contacto {
   background-color: black;
+}
+.main_contacto a {
+  text-decoration: none;
+  color: white;
 }
 .main_contacto h1 {
   text-align: center;
