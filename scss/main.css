@@ -248,6 +248,9 @@ body {
   color: white;
   border-radius: 5px;
 }
+.main_faq .cards_faq div a {
+  color: blue;
+}
 
 .main_contacto {
   background-color: black;
